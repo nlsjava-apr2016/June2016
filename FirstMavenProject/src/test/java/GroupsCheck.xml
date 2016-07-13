@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  <groups>
+  <define name="AudiPrem">
+  <include name = "AUDI"/>
+  <include name="Premium" />
+  </define>
+  
+  <run>
+   <include name="Hatch" />
+  <include name="AudiPrem" />
+  </run>
+  </groups>
+    <classes>
+      <class name="testng.GroupsCheck"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

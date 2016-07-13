@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="fname" value="Balaji"/>
+  <parameter name="lname" value="Perumal"/>
+  <parameter name="company" value="Google"/>
+  <test name="Test(failed)">
+    <parameter name="fname" value="Balaji"/>
+    <parameter name="lname" value="Venkat"/>
+    <classes>
+      <class name="testng.TestNGParameters">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="insertEmployee" invocation-numbers="0"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testng.TestNGParameters -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test name="Test2(failed)">
+    <parameter name="fname" value="Balaji"/>
+    <parameter name="lname" value="Perumal"/>
+    <classes>
+      <class name="testng.TestNGParameters">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="insertEmployee" invocation-numbers="0"/>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testng.TestNGParameters -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

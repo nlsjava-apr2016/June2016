@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24" started-at="2016-07-13T19:01:22Z" finished-at="2016-07-13T19:01:22Z">
+    <groups>
+      <group name="Hatch">
+        <method signature="GroupsCheck.altok10()[pri:0, instance:testng.GroupsCheck@da1055]" name="altok10" class="testng.GroupsCheck"/>
+        <method signature="GroupsCheck.hyundaii10()[pri:0, instance:testng.GroupsCheck@da1055]" name="hyundaii10" class="testng.GroupsCheck"/>
+      </group> <!-- Hatch -->
+      <group name="Suzuki">
+        <method signature="GroupsCheck.altok10()[pri:0, instance:testng.GroupsCheck@da1055]" name="altok10" class="testng.GroupsCheck"/>
+      </group> <!-- Suzuki -->
+      <group name="Hyundai">
+        <method signature="GroupsCheck.hyundaii10()[pri:0, instance:testng.GroupsCheck@da1055]" name="hyundaii10" class="testng.GroupsCheck"/>
+      </group> <!-- Hyundai -->
+    </groups>
+    <test name="Test" duration-ms="24" started-at="2016-07-13T19:01:22Z" finished-at="2016-07-13T19:01:22Z">
+      <class name="testng.GroupsCheck">
+        <test-method status="PASS" signature="altok10()[pri:0, instance:testng.GroupsCheck@da1055]" name="altok10" duration-ms="9" started-at="2016-07-14T00:31:22Z" finished-at="2016-07-14T00:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- altok10 -->
+        <test-method status="PASS" signature="hyundaii10()[pri:0, instance:testng.GroupsCheck@da1055]" name="hyundaii10" duration-ms="1" started-at="2016-07-14T00:31:22Z" finished-at="2016-07-14T00:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hyundaii10 -->
+      </class> <!-- testng.GroupsCheck -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

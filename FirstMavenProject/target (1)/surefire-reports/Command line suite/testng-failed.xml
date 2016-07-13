@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="testng.DependsOnMethodsTest">
+        <methods>
+          <include name="registration"/>
+        </methods>
+      </class> <!-- testng.DependsOnMethodsTest -->
+      <class name="testng.DataProviderTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- testng.DataProviderTest -->
+      <class name="testng.TestNGParameters">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="insertEmployee"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testng.TestNGParameters -->
+      <class name="testng.SecondTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testng.SecondTest -->
+      <class name="testng.FirstTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- testng.FirstTest -->
+      <class name="testng.CrossBrowserTest">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- testng.CrossBrowserTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

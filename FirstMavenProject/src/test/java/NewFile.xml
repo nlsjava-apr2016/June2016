@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<listeners>
+<listener class-name="testng.TestListener" />
+</listeners>
+  <test name="Feature1">
+    <classes>
+      <class name="testng.FirstTest">
+      <methods>
+      <include name="a" />
+      <exclude name="f" />
+      </methods>
+      </class>
+      </classes>
+  </test> <!-- Test -->
+    <test name="Feature2">
+    <classes>
+      <class name="testng.SecondTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <!-- 
+   <test name="Feature3">
+    <packages>
+      <package name="testng"/>
+    </packages>
+  </test> -->
+</suite> <!-- Suite -->
