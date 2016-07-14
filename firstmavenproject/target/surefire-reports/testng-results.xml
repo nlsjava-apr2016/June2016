@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="183" started-at="2016-07-14T17:18:35Z" finished-at="2016-07-14T17:18:35Z">
+    <groups>
+    </groups>
+    <test name="Feature1" duration-ms="37" started-at="2016-07-14T17:18:35Z" finished-at="2016-07-14T17:18:35Z">
+      <class name="testng.FirstTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testng.FirstTest@42d3bd8b]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-07-14T12:18:35Z" finished-at="2016-07-14T12:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testng.FirstTest@42d3bd8b]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-07-14T12:18:35Z" finished-at="2016-07-14T12:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testng.FirstTest@42d3bd8b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-07-14T12:18:35Z" finished-at="2016-07-14T12:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="a()[pri:0, instance:testng.FirstTest@42d3bd8b]" name="a" duration-ms="1" started-at="2016-07-14T12:18:35Z" finished-at="2016-07-14T12:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testng.FirstTest@42d3bd8b]" name="afterClass" is-config="true" duration-ms="1" started-at="2016-07-14T12:18:35Z" finished-at="2016-07-14T12:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testng.FirstTest@42d3bd8b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-07-14T12:18:35Z" finished-at="2016-07-14T12:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testng.FirstTest@42d3bd8b]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-07-14T12:18:35Z" finished-at="2016-07-14T12:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testng.FirstTest -->
+    </test> <!-- Feature1 -->
+    <test name="Feature2" duration-ms="6" started-at="2016-07-14T17:18:35Z" finished-at="2016-07-14T17:18:35Z">
+      <class name="testng.SecondTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testng.SecondTest@617c74e5]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-07-14T12:18:35Z" finished-at="2016-07-14T12:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testng.SecondTest@617c74e5]" name="beforeClass" is-config="true" duration-ms="1" started-at="2016-07-14T12:18:35Z" finished-at="2016-07-14T12:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testng.SecondTest@617c74e5]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-07-14T12:18:35Z" finished-at="2016-07-14T12:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:testng.SecondTest@617c74e5]" name="f" duration-ms="0" started-at="2016-07-14T12:18:35Z" finished-at="2016-07-14T12:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testng.SecondTest@617c74e5]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-07-14T12:18:35Z" finished-at="2016-07-14T12:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testng.SecondTest@617c74e5]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-07-14T12:18:35Z" finished-at="2016-07-14T12:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testng.SecondTest@617c74e5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-07-14T12:18:35Z" finished-at="2016-07-14T12:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testng.SecondTest -->
+      <class name="testng.FirstTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testng.FirstTest@42d3bd8b]" name="beforeSuite" is-config="true" duration-ms="18" started-at="2016-07-14T12:18:35Z" finished-at="2016-07-14T12:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testng.SecondTest@617c74e5]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2016-07-14T12:18:35Z" finished-at="2016-07-14T12:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testng.FirstTest@42d3bd8b]" name="afterSuite" is-config="true" duration-ms="1" started-at="2016-07-14T12:18:35Z" finished-at="2016-07-14T12:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testng.SecondTest@617c74e5]" name="afterSuite" is-config="true" duration-ms="0" started-at="2016-07-14T12:18:35Z" finished-at="2016-07-14T12:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testng.FirstTest -->
+    </test> <!-- Feature2 -->
+  </suite> <!-- Suite -->
+</testng-results>
